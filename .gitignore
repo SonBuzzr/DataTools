@@ -135,3 +135,6 @@ dmypy.json
 *.xlsx
 *.xml
 *.txt
+.idea/
+**/.idea
+**/Excelfiles/

@@ -11,6 +11,7 @@ group = ""
 search_result_ID = []
 search_result_UUID = []
 
+outputFile = 'SearchList.csv'
 
 # get the value of node and append it in search result
 def get_meta(gn_value, app_value):
@@ -25,7 +26,7 @@ def gn_search_metadata():
     GN_Login.gn_login()
 
     search_result = 0
-
+    print("Searching Metadata...")
     gn_conn = GN_Login.gn_session.post(GN_Login.gn_search, data=xml_search, headers=GN_Login.xml_header)
     meta_xml = xml.dom.minidom.parseString(gn_conn.text)
 
@@ -49,4 +50,4 @@ gn_search_metadata()
 
 Search = {'Metadata ID': search_result_ID, 'UUID': search_result_UUID}
 # print(search_result_ID, search_result_UUID)
-CSV_Read_Write.writeCSV_pd(**Search)
+CSV_Read_Write.writeCSV_pd(outputFile, **Search)

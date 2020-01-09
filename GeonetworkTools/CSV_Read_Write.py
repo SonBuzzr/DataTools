@@ -4,6 +4,7 @@ import pandas as pd
 
 csvFile = 'sample.csv'
 
+save = 'newfile.csv'
 # sample array of data
 # mid = [1, 2, 3]
 # uuid = ['abc', 'yxd', 'kfg']
@@ -11,6 +12,7 @@ csvFile = 'sample.csv'
 
 # using pandas module to iterate through rows in csv file
 def readCSV_pd(file):
+    print('Reading CSV file...')
     df = pd.read_csv(file)
     return df
 
@@ -22,12 +24,13 @@ def readCSV_pd(file):
 #     print(row['Name'])
 
 # Create csv file
-def writeCSV_pd(**kwargs):
+def writeCSV_pd(argv, **kwargs):
     df = pd.DataFrame(kwargs)
-    df.to_csv('SearchList.csv', index=False)
-    print("CSV file created.")
+    df.to_csv(argv, index=False)
+    print("CSV file created...")
+
 
 # Sample call method
 # passing dictionary
 # Search = {'Metadata ID': mid, 'UUID': uuid}
-# writeCSV_pd(**Search)
+# writeCSV_pd(save, **Search)

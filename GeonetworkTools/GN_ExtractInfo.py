@@ -1,7 +1,7 @@
+# using minidom to extract information from online geonetwork system
+
 import sys
-import xml.dom.minidom
 from xml.dom import minidom
-from xml.dom.minidom import parse, parseString
 import GN_Login
 import CSV_Read_Write
 
@@ -23,8 +23,8 @@ individualNametag = "gmd:individualName"
 dateStampTag = "gmd:dateStamp"
 
 # get value
-mtext = "gco:CharacterString"
-mdate = "gco:DateTime"
+mText = "gco:CharacterString"
+mDate = "gco:DateTime"
 
 title_info = []
 abstract_info = []
@@ -78,11 +78,11 @@ def getInfo(*args):
 
         metadata_id = m_id
         metadata_uuid = m_uuid
-        metadata_title = getNodeInfo(titleTag, mtext, metadataXML)
-        metadata_year = getNodeInfo(dateStampTag, mdate, metadataXML)
-        metadata_author = multiNodeInfo(mainNode, firstNode, individualNametag, mtext, metadataXML)
-        metadata_abstract = getNodeInfo(abstractTag, mtext, metadataXML)
-        metadata_purpose = getNodeInfo(purposeTag, mtext, metadataXML)
+        metadata_title = getNodeInfo(titleTag, mText, metadataXML)
+        metadata_year = getNodeInfo(dateStampTag, mDate, metadataXML)
+        metadata_author = multiNodeInfo(mainNode, firstNode, individualNametag, mText, metadataXML)
+        metadata_abstract = getNodeInfo(abstractTag, mText, metadataXML)
+        metadata_purpose = getNodeInfo(purposeTag, mText, metadataXML)
         metadata_link = rdsLink + str(m_id)
 
         id_info.append(metadata_id)

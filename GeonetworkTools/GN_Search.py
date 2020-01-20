@@ -1,10 +1,13 @@
+# Search geonetwork using free text, keywords, category
+# creates a csv list of search metadata with ID and UUID
+
 import xml.dom.minidom
 from xml.dom.minidom import parse, parseString
 import GN_Login
 import CSV_Read_Write
 
 # searching parameters in Geonetwork
-search_text = "Air Quality Monitoring Data from Air Quality"
+search_text = "Habitat suitability"
 search_category = "datasets"
 group = ""
 

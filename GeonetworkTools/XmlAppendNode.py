@@ -1,4 +1,6 @@
 # Read and Edit xml file with namespaces using minidom
+# Update user limitation
+# Search for user limitation, remove empty node, append new node
 
 import xml.dom.minidom
 from xml.dom import minidom
@@ -6,6 +8,7 @@ from xml.dom import minidom
 legalNode = "gmd:MD_LegalConstraints"
 ulNode = "gmd:useLimitation"
 charNode = "gco:CharacterString"
+
 
 # function to add/append node to xml
 def append_node(main_xml):
@@ -33,6 +36,7 @@ def append_node(main_xml):
 
 def main():
     xmlFile = 'xmlfile.xml'
+    i = 0
 
     # Parsing xml file
     metaXml = xml.dom.minidom.parse(xmlFile)
@@ -43,27 +47,27 @@ def main():
     # Loop through each and every child node
     for firstChild in topNode:
         fChild = firstChild.getElementsByTagName(ulNode)
-        # print(fChild, fChild.length)
 
         # Check if node has child or not
         if not fChild.length:
-            print("Adding New Node ...")
+            print("No child node adding New Node ...")
             addUL = append_node(metaXml)
 
         #  List all the child node value
         else:
-            for child in fChild:
+            for i, child in enumerate(fChild):
+                print("index {}, value {}".format(i, child))
                 lastChild = child.getElementsByTagName(charNode)[0]
-                print(lastChild.childNodes.length)
 
                 # check for blank user limitation
                 # Remove child of the node with empty field
                 # Create updated user limitation node
                 if not lastChild.childNodes.length:
-                    print(fChild[0], "Removing empty node and appending value ...")
-                    # lastChild.parentNode.removeChild(lastChild)
-                    fChild[0].parentNode.removeChild(fChild[0])
+                    print("Removing empty node with index {} and appending value ...".format(i))
+                    fChild[0].parentNode.removeChild(fChild[i])
                     appendUL = append_node(metaXml)
+                else:
+                    print("Node values: {} with index {}".format(lastChild.childNodes[0].nodeValue, i))
 
     return metaXml
 

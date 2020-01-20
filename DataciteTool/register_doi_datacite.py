@@ -13,6 +13,12 @@ import config as cfg
 csvFile = 'file.csv'
 date_time = time.strftime('%Y%m%d_%H%M%S')
 
+prefix = cfg.Prefix['TEST']  # Change RDS or TEST
+login_user = cfg.TestLogin['username']  # Change TestLogin to RDSLogin
+login_pass = cfg.TestLogin['password']
+url = 'https://mds.test.datacite.org'  # Change to mds.datacite.org or mds.test.datacite.org
+
+organization = 'ICIMOD'  # Change organization name
 
 def generate_new_doi(*args):
     # If you want to generate XML for earlier versions, you need to use either the
@@ -20,12 +26,12 @@ def generate_new_doi(*args):
 
     data = {
         "identifier": {
-            "identifier": "10.33631/RDS." + str(args[0]),
+            "identifier": prefix + "/RDS." + str(args[0]),
             "identifierType": "DOI"
         },
         "creators": [
             {
-                "creatorName": "Name of Organization"
+                "creatorName": organization
             }
         ],
         "titles": [
@@ -33,7 +39,7 @@ def generate_new_doi(*args):
                 "title": args[1]
             }
         ],
-        "publisher": "Name of Organization",
+        "publisher": organization,
         "publicationYear": args[2],
         "language": "en-us",
         "resourceType": {
@@ -63,23 +69,23 @@ def generate_new_doi(*args):
 
     # Initialize the MDS client.
     d = DataCiteMDSClient(
-        username=cfg.TestLogin['username'],  # Change TestLogin to RDSLogin
-        password=cfg.TestLogin['password'],
-        url='https://mds.test.datacite.org',  # Change to mds.datacite.org
-        prefix='10.33631',
+        username=login_user,
+        password=login_pass,
+        url=url,
+        prefix=prefix,
     )
 
     # Set metadata for DOI
     d.metadata_post(doc)
 
     # Mint new DOI
-    d.doi_post('10.33631/RDS.' + str(args[0]), args[4])
+    d.doi_post(prefix + '/RDS.' + str(args[0]), args[4])
 
     logging.basicConfig(filename='DOI_generation_Log_' + date_time + '.log', filemode='w',
                         format='%(asctime)s - %(message)s',
                         level=logging.INFO)
     logging.info("{} DOI Registration for id={} and title={}".format(args[5], args[0], args[1]))
-    print(args[5], '10.33631/RDS.' + str(args[0]), args[4])
+    print(args[5], prefix + '/RDS.' + str(args[0]), args[4])
 
 
 # using pandas module to iterate through rows in csv file

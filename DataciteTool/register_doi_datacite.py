@@ -20,6 +20,7 @@ url = 'https://mds.test.datacite.org'  # Change to mds.datacite.org or mds.test.
 
 organization = 'ICIMOD'  # Change organization name
 
+
 def generate_new_doi(*args):
     # If you want to generate XML for earlier versions, you need to use either the
     # schema31, schema40 or schema41 instead.

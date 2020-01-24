@@ -1,0 +1,2609 @@
+{
+   "data":[
+      {
+         "id":"10.33631/rds.23222",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.23222",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.23222",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Grazing routes in the key grazing areas of Gilgit - Baltistan"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"The dataset compiles the grazing routes in the key grazing areas during spring, summer and autumn.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=23222",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:58:10.000Z",
+            "registered":"2019-03-13T04:58:11.000Z",
+            "published":"2015",
+            "updated":"2020-01-20T12:01:24.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.23292",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.23292",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.23292",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Lease hold forest boundary of Kayerkhola watershed, Chitwan District, Nepal"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"In the watershed level, existing lease hold forest boundary delineated to know the exact area under the lease hold forest. GeoEye-2009 image used for this pupose in the Kayerkhola watershed",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=23292",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:57:47.000Z",
+            "registered":"2019-03-13T04:57:50.000Z",
+            "published":"2015",
+            "updated":"2020-01-20T11:01:56.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.26096",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.26096",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.26096",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Impacts of decadal rainy season land surface temperature on forest ecosystems in Chitwan Annapurna Landscape (CHAL)"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"This layer gives information about the impacts of decadal rainy season land surface temperature on forest ecosystems in Chitwan Annapurna Landscape.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=26096",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:56:57.000Z",
+            "registered":"2019-03-13T04:56:58.000Z",
+            "published":"2015",
+            "updated":"2020-01-20T10:32:09.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.23173",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.23173",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.23173",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Above ground carbon stock data in Nepal"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"The Above Ground Biomass(AGB) data obtained from the model was converted into carbon stock by applying a conversion factor of 0.47, as suggested by IPCC.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=23173",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:57:59.000Z",
+            "registered":"2019-03-13T04:58:01.000Z",
+            "published":"2015",
+            "updated":"2020-01-20T10:00:58.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.23202",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.23202",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.23202",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Flood hazard layers for return period 2yrs, 5yrs, 10yrs, 20 yrs, 50yrs, 100yrs, 500yrs"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"Flood hazard layer for different return period.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=23202",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:53:41.000Z",
+            "registered":"2019-03-13T04:53:43.000Z",
+            "published":"2015",
+            "updated":"2020-01-20T08:31:22.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.23011",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.23011",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.23011",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Forest cover of Bandarban, Bangladesh for 2014"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2014,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2014",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"The past few decades have seen high levels of deforestation and forest degradation in the Hindu Kush Himalayan (HKH) region. In this context, under SERVIR Himalaya programme, ICIMOD has developed forest cover monitoring system to identify forest change hotspot areas which need critical forest management attention in four pilot areas. This forest cover data of Bandarban, Bangladesh for 2014 has been developed using LandSat 8 data in a semi-automated manner as part of the forest cover monitoring system.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=23011",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:53:54.000Z",
+            "registered":"2019-03-13T04:53:56.000Z",
+            "published":"2014",
+            "updated":"2020-01-20T06:30:58.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.23019",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.23019",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.23019",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Forest cover of Sarlahi, Nepal for 2014"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2014,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2014",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"The past few decades have seen high levels of deforestation and forest degradation in the Hindu Kush Himalayan (HKH) region. In this context, under SERVIR Himalaya programme, ICIMOD has developed forest cover monitoring system to identify forest change hotspot areas which need critical forest management attention in four pilot areas. This forest cover data of Sarlahi, Nepal for 2014 has been developed using LandSat 8 data in a semi-automated manner as part of the forest cover monitoring system.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=23019",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:51:26.000Z",
+            "registered":"2019-03-13T04:51:28.000Z",
+            "published":"2014",
+            "updated":"2020-01-20T05:31:26.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.23290",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.23290",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.23290",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Land cover data of 2009 for Kayerkhola watershed, Chitwan District, Nepal"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"At the watershed level, land cover data was prepared using object image classification technique. GeoEye-1 images captured 2nd November, 2009 was used.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=23290",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:53:57.000Z",
+            "registered":"2019-03-13T04:54:00.000Z",
+            "published":"2015",
+            "updated":"2020-01-20T05:01:45.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.26106",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.26106",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.26106",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Impacts of net primary product on forest ecosystems in Chitwan Annapurna Landscape (CHAL)"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"This layer gives information about the impacts of net primary product on forest ecosystems in Chitwan Annapurna Landscape.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=26106",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:57:31.000Z",
+            "registered":"2019-03-13T04:57:33.000Z",
+            "published":"2015",
+            "updated":"2020-01-20T04:02:19.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.33640",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.33640",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.33640",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Flood data of Bangladesh on Aug 15, 2017"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2017,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2017",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"Bangladesh is one of the most flood affected country in the world. The frequency, intensity and duration of floods has been increased during last few decades. Due to increased population settlements in floodplains and irregular development damage of infrastructure, crop and property has increased creating severe impact on lives and livelihood. Understanding the severity and identification of extent and types of flood damage is highly important to plan effective response. The aim of this study was to develop appropriate methodology to determine extent of flood and damaged areas in near real time basis to support operational response. We have used Sentinel-1 synthetic aperture radar (SAR) images to generate flood extend data for the year 2017.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=33640",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:59:13.000Z",
+            "registered":"2019-03-13T04:59:14.000Z",
+            "published":"2017",
+            "updated":"2020-01-19T12:31:01.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.23291",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.23291",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.23291",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Land cover data of 2012 for Kayerkhola watershed, Chitwan District, Nepal"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"At the watershed level, land cover data was prepared using object image classification technique. GeoEye-1 images captured 15 December, 2012 was used.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=23291",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:52:53.000Z",
+            "registered":"2019-03-13T04:52:55.000Z",
+            "published":"2015",
+            "updated":"2020-01-19T12:01:27.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.24268",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.24268",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.24268",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Nepal's Gorkha Earthquake 2015 induced landslide data of Bahrabise, Sindhupalchok"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"Earthquake-induced landslide hazard mapping is based on investigations in the Bahrabise\u2013Liping area of the Sindhupalchok District. The information was gathered from existing maps, past published and unpublished reports, satellite images as well as field survey of some important failures.\nSeismic hazard analysis is a common tool to estimate the expected level of intensity of ground motion related to earthquakes. Seismic hazard is the probability of occurrence of a specified level of ground shaking in a specified period of time at a particular site. In seismic hazard analysis, it is required to infer the source of the future earthquake. To evaluate seismic hazard for a particular site or region, all possible sources of seismic activity must be identified and their potential for generating future strong ground motion should be evaluated. Seismic hazard can be estimated either by deterministic or probabilistic approaches. The hazard can be investigated deterministically when a particular earthquake scenario is assumed, whereas it can be analysed probabilistically when uncertainties in earthquake size, location, and time of occurrence are considered.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=24268",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:58:31.000Z",
+            "registered":"2019-03-13T04:58:33.000Z",
+            "published":"2015",
+            "updated":"2020-01-19T10:31:56.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.23186",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.23186",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.23186",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Dependence of local communities for NTFP on forest ecosystems in Chitwan Annapurna Landscape (CHAL)"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"NTFP layer gives information about the dependence of local communities for NTFP on forest ecosystems in Chitwan Annapurna Landscape.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=23186",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:51:46.000Z",
+            "registered":"2019-03-13T04:51:49.000Z",
+            "published":"2015",
+            "updated":"2020-01-19T09:01:01.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.26072",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.26072",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.26072",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Impacts of tree density on forest ecosystems in Chitwan Annapurna Landscape (CHAL)"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"This layer gives information about the impacts of tree density on forest ecosystems in Chitwan Annapurna Landscape.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=26072",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:55:53.000Z",
+            "registered":"2019-03-13T04:55:55.000Z",
+            "published":"2015",
+            "updated":"2020-01-19T08:01:30.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.23021",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.23021",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.23021",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Forest loss of Sarlahi, Nepal between 2013  and 2014"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2014,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2014",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"The past few decades have seen high levels of deforestation and forest degradation in the Hindu Kush Himalayan (HKH) region. In this context, under SERVIR Himalaya programme, ICIMOD has developed forest cover monitoring system to identify forest change hotspot areas which need critical forest management attention in four pilot areas. This forest loss data of Sarlahi, Nepal between 2013 and 2014 has been developed using LandSat 8 data in a semi-automated manner as part of the forest cover monitoring system.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=23021",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:53:24.000Z",
+            "registered":"2019-03-13T04:53:27.000Z",
+            "published":"2014",
+            "updated":"2020-01-19T07:01:50.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.26055",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.26055",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.26055",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Precipitation of wettest month of 2050 in Chitwan Annapurna Landscape (CHAL)"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"This layer gives information about the impacts of precipitation of wettest month of 2050 on forest ecosystems in Chitwan Annapurna Landscape.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=26055",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:55:08.000Z",
+            "registered":"2019-03-13T04:55:10.000Z",
+            "published":"2015",
+            "updated":"2020-01-19T06:02:19.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.23237",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.23237",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.23237",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"District level indicators for hazard, vulnerability and risk due to flood in Nepal"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"VDC level indicators for hazard, vulnerability and risk due to flood are aggregated to district level to prepare this dataset",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=23237",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:51:33.000Z",
+            "registered":"2019-03-13T04:51:35.000Z",
+            "published":"2015",
+            "updated":"2020-01-19T05:30:49.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.23288",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.23288",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.23288",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Basal Area data of 2009 for Kayerkhola watershed, Chitwan District, Nepal"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"At the watershed level, crown projection area (CPA) vs. basal area (BA) model was developed and validated. At the watershed level, for CPA delineation, region growing technique was adopted. GeoEye-1 images captured on 2nd November, 2009 was used.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=23288",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:52:14.000Z",
+            "registered":"2019-03-13T04:52:17.000Z",
+            "published":"2015",
+            "updated":"2020-01-19T04:31:35.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.26057",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.26057",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.26057",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Temperature of coldest month of 2050 in Chitwan Annapurna Landscape (CHAL)"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"This layer gives information about the impacts of temperature of coldest month of 2050 on forest ecosystems in Chitwan Annapurna Landscape.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=26057",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:55:14.000Z",
+            "registered":"2019-03-13T04:55:16.000Z",
+            "published":"2015",
+            "updated":"2020-01-18T11:02:30.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.23204",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.23204",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.23204",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Flood risk layers for different incremental discharge from 100mm to 420mm, and every 100% increase upto 1000%"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"Flood risk layer for different return period.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=23204",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:53:04.000Z",
+            "registered":"2019-03-13T04:53:07.000Z",
+            "published":"2015",
+            "updated":"2020-01-18T10:31:17.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.26049",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.26049",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.26049",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Bioclimatic variables of 2010 in Chitwan Annapurna Landscape (CHAL)"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"This layer is a group of variables which give information about the impacts of climate of 2010 on forest ecosystems in Chitwan Annapurna Landscape.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=26049",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:54:47.000Z",
+            "registered":"2019-03-13T04:54:49.000Z",
+            "published":"2015",
+            "updated":"2020-01-18T09:31:47.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.26050",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.26050",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.26050",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Annual mean precipitation of 2050 in Chitwan Annapurna Landscape (CHAL)"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"This layer gives information about the impacts of annual mean precipitation of 2050 on forest ecosystems in Chitwan Annapurna Landscape.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=26050",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:54:52.000Z",
+            "registered":"2019-03-13T04:54:54.000Z",
+            "published":"2015",
+            "updated":"2020-01-18T07:31:13.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.24681",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.24681",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.24681",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Dip Normal Slope - Hazard Mapping of Nepal's Gorkha Earthquake 2015 induced landslide Dams"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"Large landslide dams are one of the most disastrous natural phenomena in mountainous regions all over the world Such dams are formed most commonly in tectonically active settings where high mountains border narrow and steep valleys and earthquakes occur frequently. Landslide dams are very diverse in terms of their formation, geotechnical characteristics, longevity, stability, and flood hazard. The two major causes of landslide dam formation are precipitation and earthquake. About 50% of dam-forming landslides are brought about by rainstorms and snowmelts, 40% by earthquakes, and 10% by other factors Geometry of valley in relation to geometry and volume of debris and discharge of damming river are some of the factors which are responsible for the development of landslide dams. Schuster et al. (1998) mentioned four groups of governing factors responsible for the spatial distribution of landslide dams. They are i) seismic intensity, ii) slope gradient and topography, iii) lithology and weathering properties, and iv) soil moisture and groundwater content. Landslide dams are generated by various types of mass movements, which range from rock falls and rockslides in steep walled, narrow canyons to earth slumps in flat river lowlands. Managing landslide-dam hazards requires an understanding of the temporal and spatial scales on which such phenomena occur. Many previous works on landslide dams have been mainly descriptive in character, and have produced a multitude of documented case studies and inventories (e.g. Costa and Schuster, 1988; Costa and Schuster, 1991). More recent work is focused on quantitative methods of determining the post-formation development, in particular, the controls on dam longevity.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=24681",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:58:44.000Z",
+            "registered":"2019-03-13T04:58:46.000Z",
+            "published":"2015",
+            "updated":"2020-01-18T05:32:11.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.23216",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.23216",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.23216",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Drought Frequency in Nepal during summer season"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2014,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2014",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"The dataset present the drought frquency during the last 30 years in summer sesoan. The data is based on CHIRPS rainfall data by Climate Hazard Group (CHG) .",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=23216",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:52:09.000Z",
+            "registered":"2019-03-13T04:52:11.000Z",
+            "published":"2014",
+            "updated":"2020-01-18T04:32:36.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      },
+      {
+         "id":"10.33631/rds.26037",
+         "type":"dois",
+         "attributes":{
+            "doi":"10.33631/rds.26037",
+            "identifiers":[
+               {
+                  "identifier":"https://handle.test.datacite.org/10.33631/rds.26037",
+                  "identifierType":"DOI"
+               }
+            ],
+            "creators":[
+               {
+                  "name":"ICIMOD",
+                  "affiliation":[
+
+                  ]
+               }
+            ],
+            "titles":[
+               {
+                  "title":"Annual mean precipitation of 2010 in Chitwan Annapurna Landscape (CHAL)"
+               }
+            ],
+            "publisher":"ICIMOD",
+            "container":{
+
+            },
+            "publicationYear":2015,
+            "subjects":[
+
+            ],
+            "contributors":[
+
+            ],
+            "dates":[
+               {
+                  "date":"2015",
+                  "dateType":"Issued"
+               }
+            ],
+            "language":null,
+            "types":{
+               "ris":"DATA",
+               "bibtex":"misc",
+               "citeproc":"dataset",
+               "schemaOrg":"Dataset",
+               "resourceTypeGeneral":"Dataset"
+            },
+            "relatedIdentifiers":[
+
+            ],
+            "sizes":[
+
+            ],
+            "formats":[
+
+            ],
+            "version":null,
+            "rightsList":[
+
+            ],
+            "descriptions":[
+               {
+                  "description":"This layer gives information about the impacts of annual mean precipitation of 2010 on forest ecosystems in Chitwan Annapurna Landscape.",
+                  "descriptionType":"Abstract"
+               }
+            ],
+            "geoLocations":[
+
+            ],
+            "fundingReferences":[
+
+            ],
+            "url":"http://rds.icimod.org/Home/DataDetail?metadataId=26037",
+            "contentUrl":null,
+            "metadataVersion":0,
+            "schemaVersion":null,
+            "source":"mds",
+            "isActive":true,
+            "state":"findable",
+            "reason":null,
+            "created":"2019-03-13T04:54:02.000Z",
+            "registered":"2019-03-13T04:54:04.000Z",
+            "published":"2015",
+            "updated":"2020-01-18T04:01:18.000Z"
+         },
+         "relationships":{
+            "client":{
+               "data":{
+                  "id":"icimod.rds",
+                  "type":"clients"
+               }
+            }
+         }
+      }
+   ],
+   "included":[
+      {
+         "id":"icimod.rds",
+         "type":"clients",
+         "attributes":{
+            "name":"International Centre for Integrated Mountain Development Regional Database System",
+            "symbol":"ICIMOD.RDS",
+            "year":2018,
+            "contactEmail":"Sudip.Pradhan@icimod.org",
+            "alternateName":null,
+            "description":null,
+            "language":[
+
+            ],
+            "clientType":"repository",
+            "domains":"*",
+            "re3data":null,
+            "opendoar":null,
+            "issn":null,
+            "url":null,
+            "created":"2018-10-26T16:45:30.000Z",
+            "updated":"2019-02-25T10:42:42.000Z",
+            "isActive":true,
+            "hasPassword":true
+         },
+         "relationships":{
+            "provider":{
+               "data":{
+                  "id":"icimod",
+                  "type":"providers"
+               }
+            },
+            "prefixes":{
+               "data":[
+                  {
+                     "id":"10.33631",
+                     "type":"prefixes"
+                  }
+               ]
+            }
+         }
+      }
+   ],
+   "meta":{
+      "total":163,
+      "totalPages":7,
+      "page":1,
+      "states":[
+         {
+            "id":"findable",
+            "title":"Findable",
+            "count":163
+         }
+      ],
+      "resourceTypes":[
+         {
+            "id":"dataset",
+            "title":"Dataset",
+            "count":163
+         }
+      ],
+      "created":[
+         {
+            "id":"2019",
+            "title":"2019",
+            "count":156
+         },
+         {
+            "id":"2020",
+            "title":"2020",
+            "count":7
+         }
+      ],
+      "published":[
+         {
+            "id":"2011",
+            "title":"2011",
+            "count":7
+         },
+         {
+            "id":"2012",
+            "title":"2012",
+            "count":2
+         },
+         {
+            "id":"2013",
+            "title":"2013",
+            "count":7
+         },
+         {
+            "id":"2014",
+            "title":"2014",
+            "count":16
+         },
+         {
+            "id":"2015",
+            "title":"2015",
+            "count":117
+         },
+         {
+            "id":"2017",
+            "title":"2017",
+            "count":5
+         },
+         {
+            "id":"2018",
+            "title":"2018",
+            "count":1
+         },
+         {
+            "id":"2019",
+            "title":"2019",
+            "count":4
+         },
+         {
+            "id":"2020",
+            "title":"2020",
+            "count":4
+         }
+      ],
+      "registered":[
+         {
+            "id":"2019",
+            "title":"2019",
+            "count":156
+         },
+         {
+            "id":"2020",
+            "title":"2020",
+            "count":7
+         }
+      ],
+      "providers":[
+         {
+            "id":"icimod",
+            "title":"International Centre for Integrated Mountain Development",
+            "count":163
+         }
+      ],
+      "clients":[
+         {
+            "id":"icimod.rds",
+            "title":"International Centre for Integrated Mountain Development Regional Database System",
+            "count":163
+         }
+      ],
+      "affiliations":[
+
+      ],
+      "prefixes":[
+         {
+            "id":"10.33631",
+            "title":"10.33631",
+            "count":163
+         }
+      ],
+      "certificates":[
+
+      ],
+      "schemaVersions":[
+
+      ],
+      "sources":[
+         {
+            "id":"mds",
+            "title":"Mds",
+            "count":163
+         }
+      ],
+      "linkChecksStatus":[
+         {
+            "id":"200",
+            "title":"200",
+            "count":152
+         },
+         {
+            "id":"404",
+            "title":"404",
+            "count":1
+         },
+         {
+            "id":"503",
+            "title":"503",
+            "count":1
+         }
+      ],
+      "linksChecked":0,
+      "linksWithSchemaOrg":[
+         {
+            "id":"0",
+            "title":"0",
+            "count":156
+         }
+      ],
+      "linkChecksSchemaOrgId":0,
+      "linkChecksDcIdentifier":0,
+      "linkChecksCitationDoi":0,
+      "subjects":[
+
+      ]
+   },
+   "links":{
+      "self":"https://api.test.datacite.org/repositories/icimod.rds/dois?client-id=icimod.rds",
+      "next":"https://api.test.datacite.org/dois?client-id=icimod.rds&page%5Bnumber%5D=2&page%5Bsize%5D=25"
+   }
+}

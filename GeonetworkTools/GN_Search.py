@@ -7,7 +7,7 @@ import GN_Login
 import CSV_Read_Write
 
 # searching parameters in Geonetwork
-search_text = "Habitat suitability"
+search_text = "Basanta Shrestha"
 search_category = "datasets"
 group = ""
 
@@ -15,6 +15,7 @@ search_result_ID = []
 search_result_UUID = []
 
 outputFile = 'SearchList.csv'
+
 
 # get the value of node and append it in search result
 def get_meta(gn_value, app_value):

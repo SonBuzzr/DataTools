@@ -46,6 +46,7 @@ class SMLogger:
         file_handler.setFormatter(formatter)
         logger.addHandler(file_handler)
 
+
 class NewLogger:
 
     def __init__(self, source, log_name):
@@ -56,4 +57,10 @@ class NewLogger:
         logger.info(' : Starting new task: ')
 
 
-test1 = NewLogger('Hello', 'test.log')
+# test1 = NewLogger('Hello', 'test.log')
+
+names = ['Ram', 'Sita', 'Gita']
+
+for name in names:
+    print(name)
+    SMLogger(name, 'newlog.log')

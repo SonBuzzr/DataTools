@@ -5,8 +5,8 @@ from xml.dom import minidom
 import GN_Login
 import CSV_Read_Write
 
-csvFile = 'SearchList.csv'
-rdsLink = 'http://rds.icimod.org/Home/DataDetail?metadataId='
+csvFile = 'GetInfoList.csv'
+rdsLink = 'https://rds.icimod.org/Home/DataDetail?metadataId='
 
 outputFile = 'Metadata Info.csv'
 
@@ -14,13 +14,17 @@ outputFile = 'Metadata Info.csv'
 mainNode = "gmd:contact"
 firstNode = "gmd:CI_ResponsibleParty"
 
+mainDate_node = "gmd:date"
+date_node = "gmd:CI_Date"
+date_tag = "gco:Date"
+
 # xml tag name
 # add more tag to get more info
 titleTag = "gmd:title"
 abstractTag = "gmd:abstract"
 purposeTag = "gmd:purpose"
 individualNametag = "gmd:individualName"
-dateStampTag = "gmd:dateStamp"
+dateStampTag = "gmd:date"
 
 # get value
 mText = "gco:CharacterString"
@@ -79,7 +83,8 @@ def getInfo(*args):
         metadata_id = m_id
         metadata_uuid = m_uuid
         metadata_title = getNodeInfo(titleTag, mText, metadataXML)
-        metadata_year = getNodeInfo(dateStampTag, mDate, metadataXML)
+        # metadata_year = getNodeInfo(dateStampTag, mDate, metadataXML)
+        metadata_year = multiNodeInfo(mainDate_node, date_node, mainDate_node, date_tag, metadataXML)
         metadata_author = multiNodeInfo(mainNode, firstNode, individualNametag, mText, metadataXML)
         metadata_abstract = getNodeInfo(abstractTag, mText, metadataXML)
         metadata_purpose = getNodeInfo(purposeTag, mText, metadataXML)

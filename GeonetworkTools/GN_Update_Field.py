@@ -9,11 +9,17 @@ csvFile = 'SearchList.csv'
 
 outputFile = 'Metadata Info.csv'
 
-search_value = 'Mr. Basanta Shrestha'
+author = 'Mr. Govinda Joshi'
+position = 'Senior Cartographer/GIS Analyst'
+
+voice = '977-1-5275222'
+fax = "977-1-5275238"
+
 replace_value = ' '
 
 # for multilevel xml
-mainNode = "gmd:pointOfContact"
+# gmd:contact, gmd:pointOfContact, gmd:citedResponsibleParty
+mainNode = "gmd:contact"
 firstNode = "gmd:CI_ResponsibleParty"
 
 # xml tag name
@@ -29,8 +35,7 @@ mText = "gco:CharacterString"
 mDate = "gco:DateTime"
 
 
-# Get the value of multilevel node
-def multiNodeInfo(*args):
+def update_node_value(*args):
     topNode = args[4].getElementsByTagName(args[0])
 
     for first in topNode:
@@ -42,14 +47,42 @@ def multiNodeInfo(*args):
             for name in secondNodeTag:
                 cName = name.getElementsByTagName(args[3])[0]
 
-                if cName.childNodes.length > 0 and cName.childNodes[0].nodeValue == search_value:
+                if cName.childNodes.length > 0 and cName.childNodes[0].nodeValue == args[5]:
                     print('Updating {}'.format(cName.childNodes[0].nodeValue))
                     cName.childNodes[0].nodeValue = replace_value
                     return args[4]
 
                 else:
-                    print("Match not found")
+                    # print("Match not found")
                     return args[4]
+
+
+# Get the value of multilevel node
+def multiNodeInfo(*args):
+    topNode = args[4].getElementsByTagName(args[0])
+    if topNode.length > 0:
+        print("Node")
+        try:
+
+            for first in topNode:
+                firstNodeTag = first.getElementsByTagName(args[1])
+
+                for second in firstNodeTag:
+                    secondNodeTag = second.getElementsByTagName(args[2])
+
+                    for name in secondNodeTag:
+                        cName = name.getElementsByTagName(args[3])[0]
+
+                        if cName.childNodes.length > 0 and cName.childNodes[0].nodeValue == args[5]:
+                            print('Updating {}'.format(cName.childNodes[0].nodeValue))
+                            cName.childNodes[0].nodeValue = replace_value
+                            return args[4]
+
+                        else:
+                            # print("Match not found")
+                            return args[4]
+        except IOError:
+            print(sys.exc_info()[0], "Error in accessing metadata with ID :" + str(m_id))
 
 
 # Get the value of single node
@@ -73,16 +106,21 @@ def getInfo(*args):
 
         metadataXML = minidom.parseString(GN_CONN.text)
         # print(metadataXML)
+        try:
+            metadata_author = update_node_value(mainNode, firstNode, individualNametag, mText, metadataXML, author)
+            metadata_position = update_node_value(mainNode, firstNode, positionName, mText, metadata_author, position)
+            update_gn_xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\
+                                    <request><id>" + str(args[0]) + "</id><version>1</version>\
+                                   <data><![CDATA[" + metadata_author.toxml() + "]]></data></request>"
 
-        metadata_author = multiNodeInfo(mainNode, firstNode, individualNametag, mText, metadataXML)
-        # print(metadata_author.toxml())
+            GN_CONN = GN_Login.gn_session.post(GN_Login.gn_update, data=update_gn_xml, headers=GN_Login.xml_header)
+        except:
+            print("Main tag not found ...")
+        # metadata_author = multiNodeInfo_update(mainNode, firstNode, individualNametag, mText, metadataXML, author)
+        # metadata_position = multiNodeInfo_update(mainNode, firstNode, positionName, mText, metadata_author, position)
+        # print(metadata_position.toxml())
 
-        update_gn_xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\
-                        <request><id>" + str(args[0]) + "</id><version>1</version>\
-                       <data><![CDATA[" + metadata_author.toxml() + "]]></data></request>"
         # print(update_gn_xml)
-
-        GN_CONN = GN_Login.gn_session.post(GN_Login.gn_update, data=update_gn_xml, headers=GN_Login.xml_header)
 
     except IOError:
         print(sys.exc_info()[0], "Error in accessing metadata with ID :" + str(m_id))

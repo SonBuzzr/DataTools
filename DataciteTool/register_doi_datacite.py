@@ -10,12 +10,14 @@ import logging
 import time
 import config as cfg
 
-csvFile = 'file.csv'
+csvFile = 'Metadata Info.csv'
 date_time = time.strftime('%Y%m%d_%H%M%S')
 
 prefix = cfg.Prefix['TEST']  # Change RDS or TEST
+
 login_user = cfg.TestLogin['username']  # Change TestLogin to RDSLogin
 login_pass = cfg.TestLogin['password']
+
 url = 'https://mds.test.datacite.org'  # Change to mds.datacite.org or mds.test.datacite.org
 
 organization = 'ICIMOD'  # Change organization name

@@ -1,3 +1,5 @@
+# update the user limitation with doi
+
 from xml.dom import minidom
 import GN_Login
 import CSV_Read_Write
@@ -16,14 +18,16 @@ charNode = "gco:CharacterString"
 def formatCitation(link):
     # print(link)
     headers = {
-        'Accept': 'text/x-bibliography; style=apa-6th-edition',
+        'Accept': 'text/x-bibliography; style=apa',
     }
 
     response = requests.get(link, headers=headers)
 
-    remove_tag = BeautifulSoup(response.text, 'lxml').text
+    soup = BeautifulSoup(response.text, 'lxml')
 
-    return remove_tag
+    soup.i.unwrap()
+
+    return soup.text
 
 
 def appendNode(*args):

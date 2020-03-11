@@ -44,18 +44,18 @@ def appendNode(*args):
                                       http://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/srv
                                       http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
                              <gmd:useLimitation>
-                                <gco:CharacterString>Free not to use with attribution to the source. Suggested citation: """ \
+                                <gco:CharacterString>Free to use with attribution to the source. Suggested citation: """ \
                  + args[1] + """</gco:CharacterString>
                             </gmd:useLimitation>
                     </gmd:MD_Metadata>
                 """
-
+    print(nodeString)
     addXml = minidom.parseString(nodeString)
     intNode = args[0].getElementsByTagName(legalNode)[0]
     nodeUpdate = addXml.getElementsByTagName(ulNode)[0]
 
     intNode.insertBefore(nodeUpdate, intNode.firstChild)
-
+    # print(args[0])
     return args[0]
 
 
@@ -111,7 +111,7 @@ def getInfo(*args):
         # print(update_gn_xml)
 
         GN_CONN = GN_Login.gn_session.post(GN_Login.gn_update, data=update_gn_xml, headers=GN_Login.xml_header)
-
+        print("Metadata Updated...", args[0], GN_CONN)
     except IOError:
         print(sys.exc_info()[0], "Error in accessing metadata with ID :" + str(m_id))
 

@@ -1,12 +1,17 @@
 import dbconfig as dbc
-from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, inspect, ForeignKey, select, bindparam
+from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, inspect, ForeignKey, select, bindparam, \
+    text
+import CSV_Read_Write as reader
 
-db_user = dbc.LOCALHOST['user']
-db_password = dbc.LOCALHOST['password']
-db_host = dbc.LOCALHOST['host']
-db_port = dbc.LOCALHOST['port']
-db_database = dbc.LOCALHOST['database']
-driver = dbc.LOCALHOST['driver']
+csvFile = 'glacier_doi_update.csv'
+server = dbc.SERVER
+
+db_user = server['user']
+db_password = server['password']
+db_host = server['host']
+db_port = server['port']
+db_database = server['database']
+driver = server['driver']
 
 
 # mysql+mysqldb://<user>:<password>@<host>[:<port>]/<dbname>
@@ -32,41 +37,32 @@ class Database:
         self.db_engine = create_engine(self.db_driver)
         self.db_connect = self.db_engine.connect()
 
-        metadata = MetaData()
-        users = Table('users', metadata,
-                      Column('id', Integer, primary_key=True),
-                      Column('name', String(50)),
-                      Column('fullname', String(100))
-                      )
+        self.metadata = MetaData()
 
-        addresses = Table('addresses', metadata,
-                          Column('id', Integer, primary_key=True),
-                          Column('user_id', None, ForeignKey('users.id')),
-                          Column('email_address', String(50), nullable=False)
-                          )
-        metadata.create_all(self.db_connect)
+        try:
+            print('Connected to Database')
+        except IOError:
+            print('Connection Error', IOError)
 
-        # Insert into Table
-        # ins = users.insert().values(name='jack', fullname='Jack Jones')
-        # self.db_connect.execute(ins)
+    # Select statement
+    def select_table(self, args):
+        tbl_name = Table(args, self.metadata, autoload=True, autoload_with=self.db_engine)
+        stmt = select([tbl_name])
+        print(stmt)
 
-        # ins = users.insert()
-        # self.db_connect.execute(ins, id=2, name='wendy', fullname='Wendy Williams')
+        results = self.db_connect.execute(stmt).fetchmany(size=100)
+        for row in results:
+            print(row)
 
-        # self.db_connect.execute(addresses.insert(),[
-        #     {'user_id': 1, 'email_address': 'jack@yahoo.com'},
-        #     {'user_id': 1, 'email_address': 'jack@msn.com'},
-        #     {'user_id': 2, 'email_address': 'www@www.org'},
-        #     {'user_id': 2, 'email_address': 'wendy@aol.com'},
-        # ])
-
-        # Select statement
-        # select_table = select([users])
-        select_table = select([users, addresses]).where(users.c.id == addresses.c.user_id)
-        result = self.db_connect.execute(select_table)
-
-        for row in result:
-            print("name:", row[users.c.name], "; fullname:", row[users.c.fullname])
+            # select_table = select([users])
+        # result = self.db_connect.execute(select_table)
+        # for row in result:
+        #     print(row)
+        # select_table = select([users, addresses]).where(users.c.id == addresses.c.user_id)
+        # result = self.db_connect.execute(select_table)
+        #
+        # for row in result:
+        #     print("name:", row[users.c.name], "; fullname:", row[users.c.fullname])
 
         # Update statement
         # update_table = users.update(). \
@@ -88,24 +84,90 @@ class Database:
         #     {'oldname': 'jim', 'newname': 'jake'}
         # ])
 
-        update_table = select([addresses.c.email_address]). \
-            where(addresses.c.user_id == users.c.id). \
-            limit(1)
-        self.db_connect.execute(users.update().values(fullname=update_table))
+        # update_table = select([addresses.c.email_address]). \
+        #     where(addresses.c.user_id == users.c.id). \
+        #     limit(1)
+        # self.db_connect.execute(users.update().values(fullname=update_table))
 
         # Delete satement
         # self.db_connect.execute(users.delete().where(users.c.name > 'm'))
 
-        try:
-            print('Your connection is Ok \nConnection object is: {}'.format(self.db_connect))
-        except IOError:
-            print('Connection problem')
+    # List all table from Database
+    def list_table(self):
+        inspect_database = inspect(self.db_engine)
+        db_list = inspect_database.get_table_names()
+        return db_list
 
-    def read_table(self):
-        inspector = inspect(self.db_driver)
-        for table in inspector.get_table_names():
-            for column in inspector.get_column(table):
-                print("Column: %s" % column['name'])
+    # Insert into Table
+    def insert_table(self, args, **kwargs):
+        tbl_name = Table(args, self.metadata, autoload=True, autoload_with=self.db_engine)
+        # Insert into Table
+        ins = tbl_name.insert().values(kwargs)
+        self.db_connect.execute(ins)
+
+        # ins = users.insert()
+        # self.db_connect.execute(ins, id=2, name='wendy', fullname='Wendy Williams')
+
+        # self.db_connect.execute(addresses.insert(),[
+        #     {'user_id': 1, 'email_address': 'jack@yahoo.com'},
+        #     {'user_id': 1, 'email_address': 'jack@msn.com'},
+        #     {'user_id': 2, 'email_address': 'www@www.org'},
+        #     {'user_id': 2, 'email_address': 'wendy@aol.com'},
+        # ])
+
+        # ins = users.insert().values(name='jack', fullname='Jack Jones')
+        # self.db_connect.execute(ins)
+
+        # ins = users.insert()
+        # self.db_connect.execute(ins, id=2, name='wendy', fullname='Wendy Williams')
+
+        # self.db_connect.execute(addresses.insert(),[
+        #     {'user_id': 1, 'email_address': 'jack@yahoo.com'},
+        #     {'user_id': 1, 'email_address': 'jack@msn.com'},
+        #     {'user_id': 2, 'email_address': 'www@www.org'},
+        #     {'user_id': 2, 'email_address': 'wendy@aol.com'},
+        # ])
+
+    def create_table(self, args):
+
+        Table(args, self.metadata,
+              Column('id', Integer, primary_key=True),
+              Column('metadata_id', Integer, nullable=False, unique=True),
+              Column('metadata_uuid', String(100))
+              )
+        # users = Table('users', metadata,
+        #               Column('id', Integer, primary_key=True),
+        #               Column('name', String(50)),
+        #               Column('fullname', String(100))
+        #               )
+        #
+        # addresses = Table('addresses', metadata,
+        #                   Column('id', Integer, primary_key=True),
+        #                   Column('user_id', None, ForeignKey('users.id')),
+        #                   Column('email_address', String(50), nullable=False)
+        #                   )
+
+        self.metadata.create_all(self.db_connect)
 
 
-D1 = Database()
+db = Database()
+table_name = 'DatasetDOI'
+tables = db.list_table()
+# db.create_table(table_name)
+# db.insert_table(table_name)
+# db.select_table(table_name)
+
+csvData = reader.readCSV_pd(csvFile)
+
+# for chunk in csvData:
+
+# m_uuid = chunk['UUID']
+
+# db.insert_table(table_name, metadata_id=m_id, metadata_uuid=m_uuid)
+
+
+for index, row in csvData.iterrows():
+    m_id = row['Metadata ID']
+    m_uuid = row['UUID']
+    # print(m_id, m_uuid)
+    db.insert_table(table_name, MetadataID=m_id)

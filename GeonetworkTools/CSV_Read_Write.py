@@ -13,7 +13,7 @@ save = 'newfile.csv'
 # using pandas module to iterate through rows in csv file
 def readCSV_pd(file):
     print('Reading CSV file...')
-    df = pd.read_csv(file)
+    df = pd.read_csv(file, error_bad_lines=False)
     return df
 
 

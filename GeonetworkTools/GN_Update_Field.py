@@ -114,6 +114,7 @@ def getInfo(*args):
                                    <data><![CDATA[" + metadata_author.toxml() + "]]></data></request>"
 
             GN_CONN = GN_Login.gn_session.post(GN_Login.gn_update, data=update_gn_xml, headers=GN_Login.xml_header)
+            print("Metadata Updated...", GN_CONN)
         except:
             print("Main tag not found ...")
         # metadata_author = multiNodeInfo_update(mainNode, firstNode, individualNametag, mText, metadataXML, author)

@@ -8,6 +8,7 @@ FILEPATH = r'D:\temp'
 EXT = '.log'
 filesFound = []
 
+
 # Delete files that are older than 7 Days
 def remove_files(args):
     now = time.time()
@@ -27,7 +28,6 @@ def remove_files(args):
 
 # List all the files in the given directory
 def get_files(*args):
-
     for root, dirs, files in os.walk(args[0]):
         for file in files:
             # print(file)
@@ -36,7 +36,6 @@ def get_files(*args):
                 # converting timestamp to readable format
                 # print(datetime.fromtimestamp(os.stat(file_read).st_ctime))
                 filesFound.append(file_read)
-
 
 
 get_files(FILEPATH, EXT)

@@ -4,8 +4,11 @@ import requests
 import CSV_Read_Write
 
 ErList = []
+# check metadata link list
 csvFile = "DownloadListRDS.csv"
-outputFile = "ERRORLIST.csv"
+
+# generate error list of N/A metadata
+outputFile = "Metadata_ERRORLIST.csv"
 
 
 def checkLink(args):

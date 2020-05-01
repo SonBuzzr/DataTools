@@ -1,17 +1,34 @@
-# List all the DOI using Datacite REST API
+# Get DOI list using Datacite REST API
+# Change query string parameter as required
+# Creates DataciteDOI csv file
 
 import requests
 import json
 
 import CSV_Read_Write
 
+# Link to Datacite API
 url = "https://api.datacite.org/dois"
+
+# File name for output csv file
 outputFile = 'DataciteDOI.csv'
 
-querystring = {"client-id": "icimod.rds", "page[size]": "400"}
+"""
+Filter query for retrieving doi information from Datacite REST API
+Add and Remove following Dictionary in querystring as require
+provider-id
+client-id
+resource-type-id
+person-id
+registered
+created
+schema-version
+"""
+querystring = {"client-id": "icimod.rds", "created": "2020", "page[size]": "400"}
 
 headers = {'accept': 'application/vnd.api+json'}
 
+# Empty array for storing search information
 doiLink = []
 rdsUrl = []
 doiIden = []

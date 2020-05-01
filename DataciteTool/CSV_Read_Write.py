@@ -5,9 +5,6 @@ import pandas as pd
 csvFile = 'sample.csv'
 
 save = 'newfile.csv'
-# sample array of data
-# mid = [1, 2, 3]
-# uuid = ['abc', 'yxd', 'kfg']
 
 
 # using pandas module to iterate through rows in csv file

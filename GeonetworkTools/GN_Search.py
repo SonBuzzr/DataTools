@@ -7,9 +7,9 @@ import GN_Login
 import CSV_Read_Write
 
 # searching parameters in Geonetwork
-search_text = "Basanta Shrestha"
+search_text = ""
 search_category = "datasets"
-group = ""
+group = "33"
 
 search_result_ID = []
 search_result_UUID = []

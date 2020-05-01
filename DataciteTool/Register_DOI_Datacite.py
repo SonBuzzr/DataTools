@@ -10,14 +10,20 @@ import logging
 import time
 import config as cfg
 
+# Input csv file for generating DOI
 csvFile = 'Metadata Info.csv'
+
+# Date and time for logging information
 date_time = time.strftime('%Y%m%d_%H%M%S')
 
+# Prefix for Datacite
 prefix = cfg.Prefix['TEST']  # Change RDS or TEST
 
+# User login
 login_user = cfg.TestLogin['username']  # Change TestLogin to RDSLogin
 login_pass = cfg.TestLogin['password']
 
+# URL link to the Datacite
 url = 'https://mds.test.datacite.org'  # Change to mds.datacite.org or mds.test.datacite.org
 
 organization = 'ICIMOD'  # Change organization name
@@ -84,7 +90,7 @@ def generate_new_doi(*args):
     # Mint new DOI
     d.doi_post(prefix + '/RDS.' + str(args[0]), args[4])
 
-    logging.basicConfig(filename='DOI_generation_Log_' + date_time + '.log', filemode='w',
+    logging.basicConfig(filename='logs/DOI_generation_Log_' + date_time + '.log', filemode='w',
                         format='%(asctime)s - %(message)s',
                         level=logging.INFO)
     logging.info("{} DOI Registration for id={} and title={}".format(args[5], args[0], args[1]))

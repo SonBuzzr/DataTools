@@ -108,8 +108,8 @@ def readCSV_pd(file):
         date = row['Date']
         abstract = row['Abstract']
         link = row['Link']
-
-        generate_new_doi(Id, title, date[0:4], abstract, link, index)
+        print(Id, title, date[0:4], abstract, link, index)
+        # generate_new_doi(Id, title, date[0:4], abstract, link, index)
     print("DOI Generation Completed...")
 
 

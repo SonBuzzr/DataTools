@@ -4,11 +4,11 @@ import csv
 import pyodbc
 
 #### Path to the folder ####
-path = r'D:\\Workspace\\Scripts\\Raksha\\csvfiles'
+path = r'D:\\csvfiles'
 ext = '.csv'
 
 #### Database connection ####
-server = 'SAMEERB10-PC'
+server = 'SQLSERVER'
 database = 'Testdb'
 table_name = 'demo'
 username = 'user1'
@@ -38,7 +38,7 @@ insert_query_raks = '''INSERT INTO ''' + table_name + '''(
 
 insert_query_org = '''INSERT INTO ''' + table_name + '''([id], [name], [lastname], [age], [email], [mobile])
                 VALUES 
-                (?, ?, 'Don', ?, 'test@mail.com', 9841153451);'''
+                (?, ?, 'Don', ?, 'test@mail.com', 9845634567);'''
 
 insert_query = '''INSERT INTO ''' + table_name + '''([id], [test_time])
                 VALUES 

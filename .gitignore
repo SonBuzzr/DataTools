@@ -130,6 +130,8 @@ dmypy.json
 
 # Others
 **/Excelfiles/
+*hidden.py
+*oauth.py
 *config.py
 *test.py
 *.csv

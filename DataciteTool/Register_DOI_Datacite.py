@@ -105,7 +105,7 @@ def readCSV_pd(file):
     for index, row in df.iterrows():
         Id = row['ID']
         title = row['Title']
-        date = row['Date']
+        date = str(row['Date'])
         abstract = row['Abstract']
         link = row['Link']
         print(Id, title, date[0:4], abstract, link, index)

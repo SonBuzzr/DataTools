@@ -9,7 +9,7 @@ import CSV_Read_Write
 # searching parameters in Geonetwork
 search_text = ""
 search_category = "datasets"
-group = "33"
+group = ""
 
 search_result_ID = []
 search_result_UUID = []

@@ -1,0 +1,368 @@
+[
+  {
+    "LegendText": "Langtang - Upper (1977.1.3), Lufttemperatur (\u00b0C)",
+    "SeriesPoints": [
+      {
+        "Key": "/Date(1605942900000)/",
+        "Value": -5.15,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1605946500000)/",
+        "Value": -7.7,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1605950100000)/",
+        "Value": -8.38,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1605953700000)/",
+        "Value": -9.05,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1605957300000)/",
+        "Value": -10.18,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1605960900000)/",
+        "Value": -10.8,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1605964500000)/",
+        "Value": -1310.72,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1605968100000)/",
+        "Value": -1310.72,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1605971700000)/",
+        "Value": -1310.72,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1605975300000)/",
+        "Value": -1310.72,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1605978900000)/",
+        "Value": -1310.72,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1605982500000)/",
+        "Value": -1310.72,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1605986100000)/",
+        "Value": -1310.72,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1605989700000)/",
+        "Value": -13.56,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1605993300000)/",
+        "Value": -13.44,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1605996900000)/",
+        "Value": -13.79,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606000500000)/",
+        "Value": -14.05,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606004100000)/",
+        "Value": -13.52,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606007700000)/",
+        "Value": -13.93,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606011300000)/",
+        "Value": -1310.72,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606014900000)/",
+        "Value": -1310.72,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606018500000)/",
+        "Value": -6.78,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606022100000)/",
+        "Value": -6.93,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606025700000)/",
+        "Value": -5.89,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606029300000)/",
+        "Value": -4.55,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606032900000)/",
+        "Value": -4.78,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606036500000)/",
+        "Value": -5.15,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606040100000)/",
+        "Value": -6.59,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606043700000)/",
+        "Value": -6.03,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606047300000)/",
+        "Value": -6.72,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606050900000)/",
+        "Value": -6.26,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606054500000)/",
+        "Value": -6.58,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606058100000)/",
+        "Value": -6.33,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606061700000)/",
+        "Value": -5.45,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606065300000)/",
+        "Value": -5.86,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606068900000)/",
+        "Value": -7.25,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606072500000)/",
+        "Value": -7.38,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606076100000)/",
+        "Value": -7.44,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606079700000)/",
+        "Value": -7.35,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606083300000)/",
+        "Value": -8.17,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606086900000)/",
+        "Value": -8.6,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606090500000)/",
+        "Value": -8.74,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606094100000)/",
+        "Value": -9.15,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606097700000)/",
+        "Value": -9.84,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606101300000)/",
+        "Value": -8.96,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606104900000)/",
+        "Value": -6.44,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606108500000)/",
+        "Value": -5.63,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606112100000)/",
+        "Value": -4.9,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606115700000)/",
+        "Value": -4.42,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606119300000)/",
+        "Value": -4.27,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606122900000)/",
+        "Value": -4.78,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606126500000)/",
+        "Value": -6.4,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606130100000)/",
+        "Value": -6.3,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606133700000)/",
+        "Value": -8.28,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606137300000)/",
+        "Value": -8.32,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606140900000)/",
+        "Value": -8.05,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606144500000)/",
+        "Value": -8.46,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606148100000)/",
+        "Value": -9.02,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606151700000)/",
+        "Value": -9.46,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606155300000)/",
+        "Value": -9.24,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606158900000)/",
+        "Value": -10.06,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606162500000)/",
+        "Value": -10.34,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606166100000)/",
+        "Value": -10.39,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606169700000)/",
+        "Value": -10.96,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606173300000)/",
+        "Value": -11.54,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606176900000)/",
+        "Value": -11.51,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606180500000)/",
+        "Value": -11.52,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606184100000)/",
+        "Value": -10.36,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606187700000)/",
+        "Value": -1310.72,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606191300000)/",
+        "Value": -6.92,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606194900000)/",
+        "Value": -6.27,
+        "CorrectionMark": 0
+      },
+      {
+        "Key": "/Date(1606198500000)/",
+        "Value": -6.9,
+        "CorrectionMark": 0
+      }
+    ],
+    "Statistics": []
+  }
+]

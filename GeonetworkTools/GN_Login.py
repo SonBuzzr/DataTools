@@ -13,7 +13,7 @@ HOST = {'LOCAL': 'URL'}
 
 """
 
-host = cfg.HOST['RDS']
+host = cfg.HOST['Bhutan']
 
 xml_header = {'Content-type': 'application/xml'}
 gn_namespace = 'http://www.isotc211.org/2005/gmd/'

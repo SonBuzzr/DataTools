@@ -4,8 +4,8 @@ import requests
 
 r = requests.get('https://formulae.brew.sh/api/formula.json')
 packages_json = r.json()
-
-# print(len(packages_json))
+print(packages_json)
+print(len(packages_json))
 results = []
 
 t1 = time.perf_counter()

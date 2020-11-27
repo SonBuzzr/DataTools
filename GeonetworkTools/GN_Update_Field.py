@@ -108,13 +108,14 @@ def getInfo(*args):
         metadataXML = minidom.parseString(GN_CONN.text)
         # print(metadataXML)
         try:
-            metadata_author = update_node_value(mainNode, firstNode, individualNametag, mText, metadataXML, author)
-            metadata_position = update_node_value(mainNode, firstNode, positionName, mText, metadata_author, position)
-            update_gn_xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\
-                                    <request><id>" + str(args[0]) + "</id><version>1</version>\
-                                   <data><![CDATA[" + metadata_author.toxml() + "]]></data></request>"
+            metadata_thumb = getNodeInfo("gmd:graphicOverview",)
+            # metadata_author = update_node_value(mainNode, firstNode, individualNametag, mText, metadataXML, author)
+            # metadata_position = update_node_value(mainNode, firstNode, positionName, mText, metadata_author, position)
+            # update_gn_xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\
+            #                         <request><id>" + str(args[0]) + "</id><version>1</version>\
+            #                        <data><![CDATA[" + metadata_author.toxml() + "]]></data></request>"
 
-            GN_CONN = GN_Login.gn_session.post(GN_Login.gn_update, data=update_gn_xml, headers=GN_Login.xml_header)
+            # GN_CONN = GN_Login.gn_session.post(GN_Login.gn_update, data=update_gn_xml, headers=GN_Login.xml_header)
             print("Metadata Updated...", GN_CONN)
         except:
             print("Main tag not found ...")

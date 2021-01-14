@@ -12,6 +12,9 @@ pandas = "*"
 geoserver = "*"
 geoserver-rest = "*"
 beautifulsoup4 = "*"
+sharepoint = "*"
+datacite = "*"
+openpyxl = "*"
 
 [requires]
 python_version = "3.8"

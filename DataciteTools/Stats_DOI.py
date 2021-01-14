@@ -11,7 +11,7 @@ import CSV_Read_Write
 url = "https://api.datacite.org/dois"
 
 # File name for output csv file
-outputFile = 'DataciteDOI.csv'
+outputFile = 'DataciteDOI_30_nov_2020.csv'
 
 """
 Filter query for retrieving doi information from Datacite REST API
@@ -37,22 +37,33 @@ mtitle = []
 r = requests.get(url, headers=headers, params=querystring)
 res = r.json()
 count = 0
-
+# print(res)
 for links in res['data']:
     count += 1
-    # for doi in links['attributes']['identifiers']:
+    # print(links)
+    link = links['attributes']['doi']
+    durl = links['attributes']['url']
+    diden = links['attributes']['doi']
 
-    for doi, title in zip(links['attributes']['identifiers'], links['attributes']['titles']):
-        # print(doi['identifier'], links['attributes']['url'], links['attributes']['doi'], title['title'])
-        link = doi['identifier']
-        durl = links['attributes']['url']
-        diden = links['attributes']['doi']
-        ttl = title['title']
+    for doi in links['attributes']['titles']:
+        ttl = doi['title']
 
-        doiLink.append(link)
-        rdsUrl.append(durl)
-        doiIden.append(diden)
-        mtitle.append(ttl)
+    doiLink.append(link)
+    rdsUrl.append(durl)
+    doiIden.append(diden)
+    mtitle.append(ttl)
+
+    # for doi, title in zip(links['attributes']['identifiers'], links['attributes']['titles']):
+    #     print(doi['identifier'], links['attributes']['url'], links['attributes']['doi'], title['title'])
+    #     link = doi['identifier']
+    #     durl = links['attributes']['url']
+    #     diden = links['attributes']['doi']
+    #     ttl = title['title']
+    #
+    #     doiLink.append(link)
+    #     rdsUrl.append(durl)
+    #     doiIden.append(diden)
+    #     mtitle.append(ttl)
 
 print("No. of DOI: {}".format(count))
 

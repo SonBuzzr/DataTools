@@ -26,7 +26,7 @@ login_pass = cfg.TestLogin['password']
 # URL link to the Datacite
 url = 'https://mds.test.datacite.org'  # Change to mds.datacite.org or mds.test.datacite.org
 
-organization = 'ICIMOD'  # Change organization name
+organization = 'ICIMOD & Utrecht University'  # Change organization name
 
 
 def generate_new_doi(*args):
@@ -48,7 +48,7 @@ def generate_new_doi(*args):
                 "title": args[1]
             }
         ],
-        "publisher": organization,
+        "publisher": "ICIMOD",
         "publicationYear": args[2],
         "language": "en-us",
         "resourceType": {
@@ -109,7 +109,7 @@ def readCSV_pd(file):
         abstract = row['Abstract']
         link = row['Link']
         print(Id, title, date[0:4])
-        # generate_new_doi(Id, title, date[0:4], abstract, link, index)
+        generate_new_doi(Id, title, date[0:4], abstract, link, index)
     print("DOI Generation Completed...")
 
 

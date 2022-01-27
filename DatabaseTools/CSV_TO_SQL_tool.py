@@ -12,7 +12,7 @@ server = 'SAMEERB10-PC'
 database = 'db_afg_gl_lake'
 table_name = 'db_afg_glakes_1990_2015'
 username = 'user1'
-password = 'password'
+password = 'password' ## Random Password ##
 
 ##### SQL QUERY #####
 ##### CHECK DUPLICATE QUERY #####
